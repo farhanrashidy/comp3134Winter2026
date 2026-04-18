@@ -1,0 +1,17 @@
+root@COMP3134-Winter26:~# ping google.com -w 10
+PING google.com (142.250.137.101) 56(84) bytes of data.
+64 bytes from pnyyzb-in-f101.1e100.net (142.250.137.101): icmp_seq=1 ttl=114 time=2.25 ms
+64 bytes from pnyyzb-in-f101.1e100.net (142.250.137.101): icmp_seq=2 ttl=114 time=1.52 ms
+64 bytes from pnyyzb-in-f101.1e100.net (142.250.137.101): icmp_seq=3 ttl=114 time=1.55 ms
+64 bytes from pnyyzb-in-f101.1e100.net (142.250.137.101): icmp_seq=4 ttl=114 time=1.55 ms
+64 bytes from pnyyzb-in-f101.1e100.net (142.250.137.101): icmp_seq=5 ttl=114 time=1.52 ms
+64 bytes from pnyyzb-in-f101.1e100.net (142.250.137.101): icmp_seq=6 ttl=114 time=1.58 ms
+64 bytes from pnyyzb-in-f101.1e100.net (142.250.137.101): icmp_seq=7 ttl=114 time=1.61 ms
+64 bytes from pnyyzb-in-f101.1e100.net (142.250.137.101): icmp_seq=8 ttl=114 time=1.55 ms
+64 bytes from pnyyzb-in-f101.1e100.net (142.250.137.101): icmp_seq=9 ttl=114 time=1.52 ms
+64 bytes from pnyyzb-in-f101.1e100.net (142.250.137.101): icmp_seq=10 ttl=114 time=1.50 ms
+
+--- google.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 1.497/1.613/2.247/0.213 ms
+

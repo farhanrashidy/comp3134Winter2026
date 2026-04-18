@@ -1,0 +1,27 @@
+C:\Users\farha> tracert google.com
+
+Tracing route to google.com [142.250.139.101]
+over a maximum of 30 hops:
+
+  1     4 ms     2 ms     1 ms  mynetwork.home [192.168.2.1]
+  2    10 ms     2 ms     3 ms  142.124.37.248
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     5 ms     4 ms     5 ms  10.115.138.51
+  6     7 ms     4 ms     3 ms  142.124.123.154
+  7     6 ms     4 ms     5 ms  142.124.125.82
+  8     3 ms     3 ms     4 ms  64.230.97.179
+  9     4 ms     3 ms     3 ms  72.14.218.134
+ 10     5 ms     4 ms     4 ms  192.178.98.121
+ 11     4 ms     7 ms     4 ms  192.178.98.122
+ 12     5 ms     4 ms     4 ms  192.178.240.33
+ 13     5 ms     4 ms     4 ms  192.178.241.86
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     5 ms     4 ms     4 ms  lcyyzb-in-f101.1e100.net [142.250.139.101]
+
+Trace complete.
