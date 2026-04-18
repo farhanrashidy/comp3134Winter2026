@@ -1,0 +1,14 @@
+root@COMP3134-Winter26:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+17:40:40.812686 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 89896366:89896554, ack 480439284, win 2077, length 188
+17:40:40.834341 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 1:37, ack 188, win 4091, length 36
+17:40:40.834525 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 188:224, ack 37, win 2077, length 36
+17:40:40.865835 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 37:73, ack 224, win 4091, length 36
+17:40:40.866028 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 224:260, ack 73, win 2077, length 36
+17:40:40.898408 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 73:109, ack 260, win 4091, length 36
+17:40:40.898592 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 260:296, ack 109, win 2077, length 36
+17:40:40.912048 IP COMP3134-Winter26.38820 > 67.207.67.3.domain: Flags [S], seq 3896232961, win 64240, options [mss 1460,sackOK,TS val 1209120633 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+17:40:40.913314 IP 67.207.67.3.domain > COMP3134-Winter26.38820: Flags [S.], seq 176219743, ack 3896232962, win 65160, options [mss 1460,sackOK,TS val 2477861218 ecr 1209120633,nop,wscale 10], length 0
+17:40:40.913349 IP COMP3134-Winter26.38820 > 67.207.67.3.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 1209120635 ecr 2477861218], length 0
+17:40:40.913528 IP COMP3134-Winter26.38820 > 67.207.67.3.domain: Flags [P.], seq 1:49, ack 1, win 502, options [nop,nop,TS val 1209120635 ecr 2477861218], length 48 9354+ PTR? 118.104.148.184.in-addr.arpa. (46)

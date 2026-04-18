@@ -1,0 +1,14 @@
+root@COMP3134-Winter26:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+17:41:37.460745 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 89940802:89940990, ack 480458796, win 2077, length 188
+17:41:37.468296 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 1:37, ack 188, win 4092, length 36
+17:41:37.468513 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 188:224, ack 37, win 2077, length 36
+17:41:37.497103 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 37:73, ack 224, win 4092, length 36
+17:41:37.497300 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 224:260, ack 73, win 2077, length 36
+17:41:37.529216 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 73:109, ack 260, win 4092, length 36
+17:41:37.529449 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 260:296, ack 109, win 2077, length 36
+17:41:37.561197 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 109:145, ack 296, win 4092, length 36
+17:41:37.561355 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 296:332, ack 145, win 2077, length 36
+17:41:37.582919 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 332:1512, ack 145, win 2077, length 1180
+17:41:37.588855 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [.], ack 1512, win 4095, length 0

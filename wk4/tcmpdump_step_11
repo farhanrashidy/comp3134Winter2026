@@ -1,0 +1,14 @@
+root@COMP3134-Winter26:~# tcpdump -i eth0 138.197.128.144
+tcpdump: can't parse filter expression: syntax error
+root@COMP3134-Winter26:~# tcpdump -i eth0 src 138.197.128.144
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+17:43:39.913457 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 89997298:89997486, ack 480496712, win 2077, length 188
+17:43:39.936987 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 188:224, ack 37, win 2077, length 36
+17:43:39.970636 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 224:260, ack 73, win 2077, length 36
+17:43:40.004649 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 260:296, ack 109, win 2077, length 36
+17:43:40.015878 IP COMP3134-Winter26.51236 > 67.207.67.3.domain: 51972+ [1au] PTR? 118.104.148.184.in-addr.arpa. (57)
+17:43:40.016054 IP COMP3134-Winter26.52898 > 67.207.67.3.domain: Flags [S], seq 2036358320, win 64240, options [mss 1460,sackOK,TS val 1209299737 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+17:43:40.016341 IP COMP3134-Winter26.41755 > 67.207.67.3.domain: 47178+ [1au] PTR? 144.128.197.138.in-addr.arpa. (57)
+17:43:40.017225 IP COMP3134-Winter26.52898 > 67.207.67.3.domain: Flags [.], ack 3554839475, win 502, options [nop,nop,TS val 1209299739 ecr 2478040323], length 0
+17:43:40.017735 IP COMP3134-Winter26.52898 > 67.207.67.3.domain: Flags [P.], seq 0:48, ack 1, win 502, options [nop,nop,TS val 1209299739 ecr 2478040323], length 48 14781+ PTR? 118.104.148.184.in-addr.arpa. (46)

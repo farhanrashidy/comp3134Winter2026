@@ -1,0 +1,18 @@
+root@COMP3134-Winter26:~# tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+17:18:18.580648 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 75017374:75017562, ack 480177600, win 1487, length 188
+E.....@.@.3.......hv.....x......P...-7..O..S......X5.*..l..7d&..wy,.?{N.W..Bl..iT....wS.Q)4...{.k...>F...4...}sy.).O..3...l,..].....j0.r..3.`..Q5.....N.{.:..3B.\?v..rp.p.B)1......L..:f.vJ.m..._.3}l.L...E.:N%.J..G...........>4...
+17:18:18.603566 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 1:37, ack 188, win 4095, length 36
+E(.Lq.@.r.j~..hv.............x.ZP....g....`(I_.Gt..uE.....4o...^......*&.Z.K
+17:18:18.603750 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 188:224, ack 37, win 1487, length 36
+E..L..@.@.4Z......hv.....x.Z....P...,......j...{.......^......G.N....B......
+17:18:18.634927 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 37:73, ack 224, win 4095, length 36
+E(.Lq.@.r.j}..hv.............x.~P........{-.=_.M1...........
+....((..r.^bI..
+17:18:18.635188 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 224:260, ack 73, win 1487, length 36
+E..L..@.@.4Y......hv.....x.~....P...,...f.de..Cd.2.;.........,....A#C.-^4..$
+17:18:18.666706 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 73:109, ack 260, win 4095, length 36
+E(.Lq.@.r.j|..hv.............x..P....P...../3 .K..CG..X.~./.y....2..xTJ..!./
+17:18:18.666888 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 260:296, ack 109, win 1487, length 36
+E..L..@.@.4X......hv.....x.....,P...,............DD.......0Wo.D..<........f.

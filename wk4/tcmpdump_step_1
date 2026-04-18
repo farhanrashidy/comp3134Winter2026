@@ -1,0 +1,17 @@
+root@COMP3134-Winter26:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+17:06:46.034180 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 74944362:74944550, ack 480146536, win 1487, length 188
+17:06:46.041031 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 1:37, ack 188, win 4095, length 36
+17:06:46.041190 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 188:224, ack 37, win 1487, length 36
+17:06:46.068243 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 37:73, ack 224, win 4095, length 36
+17:06:46.068420 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 224:260, ack 73, win 1487, length 36
+17:06:46.100698 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 73:109, ack 260, win 4095, length 36
+17:06:46.100884 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 260:296, ack 109, win 1487, length 36
+17:06:46.131802 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 109:145, ack 296, win 4095, length 36
+17:06:46.132014 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 296:332, ack 145, win 1487, length 36
+17:06:46.136375 IP COMP3134-Winter26.50757 > 67.207.67.3.domain: 39623+ [1au] PTR? 118.104.148.184.in-addr.arpa. (57)
+17:06:46.136447 IP COMP3134-Winter26.37410 > 67.207.67.3.domain: 28927+ [1au] PTR? 118.104.148.184.in-addr.arpa. (57)
+17:06:46.143640 IP 67.207.67.3.domain > COMP3134-Winter26.50757: 39623 1/0/1 PTR bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca. (127)
+17:06:46.144108 IP 67.207.67.3.domain > COMP3134-Winter26.37410: 28927 1/0/1 PTR bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca. (127)
+17:06:46.144467 IP COMP3134-Winter26.55394 > 67.207.67.3.domain: 19200+ [1au] PTR? 144.128.197.138.in-addr.arpa. (57)

@@ -1,0 +1,12 @@
+root@COMP3134-Winter26:~# tcpdump -r 0001.pcap
+tcpdump: 0001.pcap: No such file or directory
+
+
+root@COMP3134-Winter26:~# tcpdump -r 001.pcap
+reading from file 001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+17:29:31.752552 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 89650390:89650514, ack 480275404, win 1555, length 124
+17:29:31.771853 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 1:37, ack 124, win 4090, length 36
+17:29:31.772085 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 124:160, ack 37, win 1555, length 36
+17:29:31.803594 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 37:73, ack 160, win 4090, length 36
+17:29:31.803858 IP COMP3134-Winter26.ssh > bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810: Flags [P.], seq 160:196, ack 73, win 1555, length 36
+17:29:31.834849 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 73:109, ack 196, win 4090, length 36

@@ -1,0 +1,11 @@
+root@COMP3134-Winter26:~# tcpdump -i eth0 dst 138.197.128.144
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+17:44:57.569369 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [.], ack 90033950, win 4092, length 0
+17:44:57.583911 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 0:36, ack 1, win 4092, length 36
+17:44:57.616182 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 36:72, ack 37, win 4092, length 36
+17:44:57.648150 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 72:108, ack 73, win 4092, length 36
+17:44:57.680262 IP bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca.57810 > COMP3134-Winter26.ssh: Flags [P.], seq 108:144, ack 109, win 4092, length 36
+17:44:57.682931 IP 67.207.67.3.domain > COMP3134-Winter26.34951: 30463 NXDomain 0/1/1 (124)
+17:44:57.684282 IP 67.207.67.3.domain > COMP3134-Winter26.33883: 41312 1/0/1 PTR bras-base-toroon2176w-grc-62-184-148-104-118.dsl.bell.ca. (127)
+17:44:57.685608 IP 67.207.67.3.domain > COMP3134-Winter26.50006: Flags [S.], seq 2014694914, ack 2087275228, win 65160, options [mss 1460,sackOK,TS val 358104246 ecr 1209377406,nop,wscale 10], length 0
