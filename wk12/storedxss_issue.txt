@@ -1,0 +1,6 @@
+Issues:
+- Script is executed automatically when page loads
+- No input sanitization
+- Allows malicious redirects
+- Can steal user data or session
+- Persistent attack (stored on server)

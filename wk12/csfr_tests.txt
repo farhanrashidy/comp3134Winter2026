@@ -1,0 +1,4 @@
+- csfr_form.php works correctly because token matches session
+- csfr.html attack fails because no valid token is sent
+- CSRF protection prevents unauthorized requests
+- Token validation ensures request authenticity
