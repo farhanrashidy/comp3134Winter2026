@@ -1,0 +1,12 @@
+strip_tags():
+- Removes HTML and script tags completely
+- Example: <script>alert('hi')</script> -> alert('hi')
+- Less secure if malicious JS is embedded in other ways
+
+htmlspecialchars():
+- Converts special characters into safe HTML entities
+- Prevents execution of scripts
+- More secure and preferred method
+
+Conclusion:
+htmlspecialchars is safer because it neutralizes input instead of removing parts of it.

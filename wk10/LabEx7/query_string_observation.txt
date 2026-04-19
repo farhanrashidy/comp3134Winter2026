@@ -1,0 +1,9 @@
+1) The site returns the definition of the word. The input is processed safely and displayed correctly.
+
+2) The site shows a “no results found” message. It handles invalid input properly without breaking.
+
+3) <script>alert('hello')</script>
+The script is NOT executed. The site sanitizes input, preventing XSS. It should that i am unable to access dictionary.com
+
+4) term=<script>alert('hello')</script>
+The script is still not executed. The site escapes or filters the input. It should that i am unable to access dictionary.com
