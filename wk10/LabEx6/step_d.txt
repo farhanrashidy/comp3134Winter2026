@@ -1,0 +1,7 @@
+The page scans directory based on user input. When an invalid directory given, an error is displayed showing that the directory does not exist.
+
+Issue:
+The application does have input validation, leading to errors and security vulnerabilities.
+
+Sensitive Information:
+The page reveals internal server behavior and error messages, which exposes directory structure to attackers.

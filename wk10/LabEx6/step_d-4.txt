@@ -1,0 +1,7 @@
+The page lists files and directories outside the intended web directory by using "../" to move up the directory structure.
+
+Issue:
+This is a directory traversal vulnerability. The application allows access to directories outside the intended path.
+
+Sensitive Information:
+It may expose critical system directories and other sensitive files, which could include configuration files, passwords, and system data.

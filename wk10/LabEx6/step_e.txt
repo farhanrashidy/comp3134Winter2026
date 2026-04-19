@@ -1,0 +1,5 @@
+To mitigate directory traversal, the basename() function is used to strip any path components such as "../", ensuring that users cannot access directories outside the web root.
+
+To prevent accessing non-existent directories, file_exists() and is_dir() are used to verify that the provided path exists and is a valid directory before scanning it.
+
+Additionally, a check is added to prevent users from passing filenames by detecting the presence of a dot (.) in the input, ensuring only directories can be accessed.

